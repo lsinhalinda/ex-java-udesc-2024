@@ -16,7 +16,8 @@ public class Ex9 {
         System.out.println("Digite sua terceira nota");
         int nota3 = ler.nextInt();
 
-        double media = nota1+nota2+nota3;
+        double somanotas = (nota1+nota2+nota3);
+        double media = somanotas/3;
 
         if(media>=7) {
             System.out.printf("%s esta aprovado", nome);
